@@ -1,0 +1,50 @@
+﻿body {
+    
+    
+    /*padding-top: 50px;
+    padding-bottom: 20px;*/
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    height: 150px;
+    width: 100%;
+    background-color: gray;
+    color: white;
+    text-align: center;
+    display: flex;
+    /* 水平置中 */
+    justify-content: center;
+    /* 垂直置中 */
+    align-items: center;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+.header {
+    height: 200px;
+    width: 100%;
+    background-color: forestgreen;
+    color: white;
+    text-align: center;
+
+    display: flex;
+    /* 水平置中 */
+    justify-content: center;
+    /* 垂直置中 */
+    align-items: center;
+}
+
+.a1 {
+    display: flex;
+    /* 水平(上下)置中 */
+    justify-content: center;
+    /* 垂直(左右)置中 */
+    align-items: center;
+}
+
